@@ -1,0 +1,10 @@
+The Exploding Pen:
+Pen Modle Made By IQuick 143
+
+Colours: Red Blue Black Purple
+Ink Colour Is Shown By The Colour Of The Writing On The Note.
+
+The Unicorn Is:
+Purple Pen With Red Ink & Lit Bob.
+
+Purple Pen With Red Ink -> [Unicorn If Lit Bob Is Present] Else Press When The Last Diget Of The Timer Is
