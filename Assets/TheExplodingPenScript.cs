@@ -17,9 +17,6 @@ public class TheExplodingPenScript : MonoBehaviour {
 	public MeshRenderer PenRender;
 	public MeshRenderer NotepadRender;
 
-	private string AllowedTimeString = "";
-	private string TimePressedString = "";
-
 	private int NumIndicators = 0;
 	private int LastSerialDigit = 0;
 
