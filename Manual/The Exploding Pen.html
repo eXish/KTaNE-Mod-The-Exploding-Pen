@@ -11,6 +11,7 @@
     <style>
         table {
             margin: 1em auto;
+            font-size: 14.5px;
         }
 
         .Red {
@@ -42,7 +43,10 @@
             background-color: rgb(140, 140, 140);
             color: rgb(0, 0, 0);
         }
-
+        
+        ol:empty + .empty-state {
+             display: block;
+        }
     </style>
 </head>
 <body>
@@ -57,20 +61,16 @@
                 <h2>On the Subject of The Exploding Pen</h2>
                 <p class="flavour-text">Are you taking notes yet?</p>
 
-                <p>This module has a pen a sticky note block and a submit button. The pen must be clicked several times when the seconds digits of the bomb timer are equal to a number based upon the information from the module.</p>
-                <ol>
-                    <li>Start with the number of indicators, and multiply it by the last digit of the serial number.</li>
-                    <br>
-                    <li>Now modulo your result by 10 and add 1. <br>This is the number of times you have to click the pen to solve the module.</li>
-                    <br>
-                    <li>Using the color of the pen and ink (Shown by the color of the text on the sticky note block.) and the name of who left you the voice message. Use the tables below to find the time you can click the pen because you don't just sit at the phone all day.</li>
-                    <br>
-                    <li>To solve the module, click the pen the number of times you calculated in step 2, when the seconds digits of the bombs timer are equal to the number you found from the table in step 3.</li>
-                    <br>
-                    <li>When you have clicked the pen as described in steps 2 and 3 press the submit button at anytime.</li>
+                <p>This module has a pen, a sticky note block, and a submit button. The pen must be clicked several times when the seconds digits of the bomb timer are equal to a number based upon the information from the module.</p>
+                <ol style = "font-size: 15px">
+                    <li>Start with the number of indicators and multiply it by the last digit of the serial number.</li>
+                    <li>Now modulo your result by 10 and add 1. This is the number of times you have to click the pen to solve the module.</li>
+                    <li>Using the color of the pen and ink (shown by the color of the text on the sticky note block) and the name of who left you the voice message, find the time you can click the pen from the right table below because you don't just sit at the phone all day.</li>
+                    <li>To solve the module, click the pen the number of times you calculated in step 2, when the seconds digits of the bomb timer are equal to the number you found from the table in step 3.</li>
+                    <li>When you have clicked the pen as described in steps 2 and 3, press the submit button at anytime.</li>
                 </ol>
                   
-                <p>If the pen is clicked at the wrong time, or an incorrect amount of times, a strike will be given and the module will reset and your previous clicks are reset to zero.</p>
+                <p>If the pen is clicked at the wrong time a strike will be given and the module will reset and your previous clicks are reset to zero. The same will occur if the pen is clicked an incorrect amount of times, but only when the submit button is pressed.</p>
 
                   <table>
                     <tr>
