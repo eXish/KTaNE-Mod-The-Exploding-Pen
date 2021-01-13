@@ -153,8 +153,8 @@ public class TheExplodingPenScript : MonoBehaviour {
                 if (Mathf.FloorToInt(Info.GetTime()) % 60 != Seconds)
                 {
                     yield return "sendtochat Halted pressing the pen due to a change in the seconds digits of the bomb timer. Successfully pressed the pen " + i + " times before halting.";
-					yield break;
-				}
+                    yield break;
+                }
                 Pen.OnInteract();
                 yield return new WaitForSeconds(0.1f);
             }
